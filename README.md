@@ -7,8 +7,10 @@ InterviewAl is a full-stack MERN web application that helps users prepare for jo
 
 ## 📁 Project Structure
 
+## 📁 Project Structure
+
+```text
 InterviewAl/
-│
 ├── client/
 │   ├── public/
 │   ├── src/
@@ -21,7 +23,6 @@ InterviewAl/
 │   │   │   ├── Step2Interview.jsx
 │   │   │   ├── Step3Report.jsx
 │   │   │   └── Timer.jsx
-│   │   │
 │   │   ├── pages/
 │   │   │   ├── Auth.jsx
 │   │   │   ├── Home.jsx
@@ -29,7 +30,6 @@ InterviewAl/
 │   │   │   ├── InterviewPage.jsx
 │   │   │   ├── InterviewReport.jsx
 │   │   │   └── Pricing.jsx
-│   │   │
 │   │   ├── redux/
 │   │   ├── utils/
 │   │   │   └── firebase.js
@@ -37,8 +37,6 @@ InterviewAl/
 │   │   ├── App.jsx
 │   │   ├── index.css
 │   │   └── main.jsx
-│   │
-│   ├── .env
 │   ├── .gitignore
 │   ├── eslint.config.js
 │   ├── index.html
@@ -49,53 +47,53 @@ InterviewAl/
 │   ├── config/
 │   │   ├── connectdb.js
 │   │   └── token.js
-│   │
 │   ├── controllers/
 │   │   ├── auth.controller.js
 │   │   ├── interview.controller.js
 │   │   ├── payment.controller.js
 │   │   └── user.controller.js
-│   │
 │   ├── middlewares/
 │   │   ├── isAuth.js
 │   │   └── multer.js
-│   │
 │   ├── models/
 │   │   ├── interview.model.js
 │   │   ├── payment.model.js
 │   │   └── user.model.js
-│   │
 │   ├── public/
 │   ├── routes/
 │   │   ├── auth.route.js
 │   │   ├── interview.route.js
 │   │   ├── payment.route.js
 │   │   └── user.routes.js
-│   │
 │   ├── services/
 │   │   ├── openRouter.services.js
 │   │   └── razorpay.js
-│   │
-│   ├── .env
 │   ├── .gitignore
 │   ├── index.js
 │   ├── package.json
 │   └── package-lock.json
+│
 └── README.md
+```
 
-### 📂 Folder Description
+### 📂 Folder Overview
 
-- **client/** — React frontend, pages, reusable UI components, styling, and Firebase configuration.
-- **server/** — Node.js and Express.js backend, API routes, controllers, database models, authentication, and integrations.
-- **components/** — Reusable components for interview setup, interview sessions, reports, navigation, and timers.
-- **pages/** — Main application pages, including authentication, home, interview history, reports, and pricing.
+- **client/** — React frontend and user interface.
+- **components/** — Reusable interview, navigation, and report components.
+- **pages/** — Authentication, home, interview, history, report, and pricing pages.
 - **redux/** — Application state management.
+- **utils/** — Firebase configuration and utilities.
+- **server/** — Node.js and Express.js backend.
 - **config/** — Database connection and token configuration.
-- **controllers/** — Request handling for authentication, interviews, payments, and users.
+- **controllers/** — Authentication, interview, payment, and user request handling.
 - **middlewares/** — Authentication and file-upload middleware.
-- **models/** — MongoDB data models for users, interviews, and payments.
-- **routes/** — Backend API route definitions.
+- **models/** — MongoDB data models.
+- **routes/** — Backend API routes.
 - **services/** — OpenRouter AI and Razorpay integrations.
+- **README.md** — Project documentation.
+
+**Security note:** The `.env` files are intentionally omitted from this displayed structure. Keep your API keys, database credentials, and other secrets private and out of GitHub.
+
 
 ## 🚀 Key Features
 
