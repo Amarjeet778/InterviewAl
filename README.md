@@ -7,8 +7,6 @@ InterviewAl is a full-stack MERN web application that helps users prepare for jo
 
 ## 📁 Project Structure
 
-## 📁 Project Structure
-
 ```text
 InterviewAl/
 ├── client/
